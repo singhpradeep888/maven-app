@@ -11,6 +11,7 @@ pipeline {
                 git 'https://github.com/Nazim231/maven-app.git'
             }
         }
+        
         stage('clean') {
             steps {
                 sh 'mvn clean'
